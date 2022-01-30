@@ -10,4 +10,4 @@ pour creer un package
 npm install && npm run pack
 ```
 
-![TTS Anime](./blob/main/img/Screen.jpg?raw=true)
+![TTS Anime](./img/Screen.jpg)
