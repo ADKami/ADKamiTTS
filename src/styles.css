@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+h1 {
+    margin: 10px;
+    text-align: center;
+    background-color: #d1d125;
+}
+#body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#body > * {
+    display: flex;
+    flex-direction: column;
+    /* overflow: auto; */
+}
+
+.container2 {
+    height: 100%;
+    overflow-y: auto;
+}
+
+#drop-add {
+    padding: 14px;
+    /* background-color: #f4f4f4; */
+    border: 4px dashed #d2d2d2;
+    margin-bottom: 10px;
+}
+
+#drop-add.hover {
+    background-color: #070707;
+    color: #FFF;
+}
+
+#drop-add-btn {
+    display: none;
+}
+
+.btn {
+    padding: 5px 7px;
+    background-color: #444343;
+    border: 3px solid #353434;
+    color: #FFF;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+}
+
+.btn {
+    background-color: #070707;
+    border: 3px solid #1f1f1f;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #26a234;
+}
+
+#container-soustitre {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.line {
+    display: flex;
+}
+
+.line > * {
+    margin: 2px;
+    padding: 4px;
+    background-color: #d2d2d2;
+}
+
+.line.active > * {
+    background-color: #edffbc;
+}
+
+.line .date-end {
+    width: 100px;
+}
+
+.line .date-start {
+    width: 100px;
+}
+
+.line .text {
+    flex: 1;
+}
+
+.lecteur-video button {
+    padding: 4px;
+}
